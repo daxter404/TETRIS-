@@ -1,0 +1,13 @@
+
+class Main {
+
+   
+    function void main() {
+	var TetrisGame game;
+	do TetrisGame.newInstance();
+	let game = TetrisGame.getInstance();
+        do game.run();
+        do game.dispose();
+        return;
+    }
+}
